@@ -1,0 +1,240 @@
+﻿@{
+    ViewData["Title"] = "Service Provider Profile";
+}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Service Provider Profile</h2>
+
+
+
+<div class="card shadow p-4 mb-4">
+    <h4>Manage Availability</h4>
+    <h5 class="mb-3">Time Slots:</h5>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Monday: 10:00 AM - 5:00 PM
+            <button class="btn btn-sm text-white" data-bs-toggle="modal" data-bs-target="#editMondayModal" style="background-color: #003262;">Edit</button>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Tuesday: 10:00 AM - 5:00 PM
+            <button class="btn btn-sm text-white" data-bs-toggle="modal" data-bs-target="#editTuesdayModal" style="background-color: #003262;">Edit</button>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Wednesday: 10:00 AM - 5:00 PM
+            <button class="btn btn-sm text-white" data-bs-toggle="modal" data-bs-target="#editWednesdayModal" style="background-color: #003262;">Edit</button>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Thursday: 10:00 AM - 5:00 PM
+            <button class="btn btn-sm text-white" data-bs-toggle="modal" data-bs-target="#editThursdayModal" style="background-color: #003262;">Edit</button>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Friday: 10:00 AM - 5:00 PM
+            <button class="btn btn-sm text-white" data-bs-toggle="modal" data-bs-target="#editFridayModal" style="background-color: #003262;">Edit</button>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Saturday: Closed
+            <button class="btn btn-sm text-white" data-bs-toggle="modal" data-bs-target="#editSaturdayModal" style="background-color: #003262;">Edit</button>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Sunday: Closed
+            <button class="btn btn-sm text-white" data-bs-toggle="modal" data-bs-target="#editSundayModal" style="background-color: #003262;">Edit</button>
+        </li>
+    </ul>
+</div>
+
+<div id="modals-container">
+    <div class="modal fade" id="editMondayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Monday Availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">End Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Mark as Closed</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editTuesdayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Tuesday Availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">End Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Mark as Closed</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editWednesdayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Wednesday Availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">End Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Mark as Closed</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editThursdayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Thursday Availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">End Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Mark as Closed</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editFridayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Friday Availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">End Time</label>
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Mark as Closed</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editSaturdayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Saturday Availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">End Time</label>
+                        <input type="time" class="form-control">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Mark as Closed</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editSundayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <form class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Edit Sunday Availability</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">End Time</label>
+                        <input type="time" class="form-control">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label">Mark as Closed</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

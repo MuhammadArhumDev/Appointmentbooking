@@ -1,0 +1,86 @@
+html {
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'cLight';
+    src: url('./c-light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'cMedium';
+    src: url('./c-medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'rMedium';
+    src: url('./r-medium.woff2') format('woff2');
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.r-medium {
+    font-family: "rMedium";
+}
+
+.c-medium {
+    font-family: "cMedium";
+}
+
+.primary-color {
+    color: #003262;
+}
+
+.primary-bg {
+    background-color: #003262;
+}
+
+.c-light {
+    font-family: "cLight";
+}
+
+* {
+    font-family: "rMedium";
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.feature-box {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+    .feature-box:hover {
+        background-color: #e0e0e0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+.features p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .feature-box {
+        margin-bottom: 20px;
+    }
+}

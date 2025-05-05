@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "Service Provider Profile";
+}
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Service Provider Profile</h2>
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Service Provider Profile</h2>
+
+    <div class="card shadow p-4 mb-4">
+        <h4>Business Information</h4>
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">Business Name:</div>
+            <div class="col-md-7">ProTech Solutions</div>
+            <div class="col-md-2 text-end">
+                <button class="btn text-white" style="background-color: #003262;">Edit</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">Address:</div>
+            <div class="col-md-7">123 Tech Street, City, Country</div>
+            <div class="col-md-2 text-end">
+                <button class="btn text-white" style="background-color: #003262;">Edit</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-3 fw-bold">Contact Number:</div>
+            <div class="col-md-7">+1234567890</div>
+            <div class="col-md-2 text-end">
+                <button class="btn text-white" style="background-color: #003262;">Edit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow p-4 mb-4">
+        <h4>Offered Services</h4>
+
+        <div class="border p-3 mb-4">
+            <h5 class="mb-3">Add New Service</h5>
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Service Name</label>
+                        <input type="text" class="form-control" placeholder="Enter service name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Category</label>
+                        <select class="form-select" required>
+                            <option selected>Select category</option>
+                            <option>Medical</option>
+                            <option>Law</option>
+                            <option>Salon</option>
+                            <option>Consultancy</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Price ($)</label>
+                        <input type="number" class="form-control" placeholder="Enter price" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Duration</label>
+                        <input type="text" class="form-control" placeholder="e.g., 3 days or 1 hour" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Estimated Delivery Time</label>
+                        <input type="text" class="form-control" placeholder="e.g., 2-5 business days">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Service Description</label>
+                    <textarea class="form-control" rows="3" placeholder="Enter detailed description" required></textarea>
+                </div>
+
+                <div class="text-end">
+                    <button type="submit" class="btn text-white" style="background-color: #003262;">Add Service</button>
+                </div>
+            </form>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Duration</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Development</td>
+                    <td>Full website development</td>
+                    <td>$500</td>
+                    <td>7 days</td>
+                    <td>
+                        <button class="btn btn-sm text-white me-1" style="background-color: #003262;">Edit</button>
+                        <button class="btn btn-sm btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Logo Design</td>
+                    <td>Professional logo creation</td>
+                    <td>$150</td>
+                    <td>3 days</td>
+                    <td>
+                        <button class="btn btn-sm text-white me-1" style="background-color: #003262;">Edit</button>
+                        <button class="btn btn-sm btn-danger">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>

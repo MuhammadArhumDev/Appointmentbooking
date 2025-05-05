@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Customer Profile";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Customer Profile</h2>
+
+<div class="card shadow p-4 mb-4">
+    <h4>Upcoming Bookings</h4>
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Provider</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Logo Design</td>
+                <td>graphic_mike</td>
+                <td>22-Mar-2024</td>
+                <td>
+                    <button class="btn btn-sm text-white me-1" style="background-color: #003262;">Reschedule</button>
+                    <button class="btn btn-sm btn-danger">Cancel</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Content Writing</td>
+                <td>writer_anna</td>
+                <td>30-Mar-2024</td>
+                <td>
+                    <button class="btn btn-sm text-white me-1" style="background-color: #003262;">Reschedule</button>
+                    <button class="btn btn-sm btn-danger">Cancel</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

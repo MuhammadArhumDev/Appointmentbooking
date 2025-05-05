@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Book Service";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Book This Service</h2>
+
+
+<div class="card shadow p-4">
+    <form>
+        <h4>Select Your Slot</h4>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label">Select Date</label>
+                <input type="date" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Start Time</label>
+                <input type="time" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">End Time</label>
+                <input type="time" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Comments / Special Requests</label>
+            <textarea class="form-control" rows="3" placeholder="Add any special notes or requests..."></textarea>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn text-white px-4" style="background-color: #003262;">Confirm Booking</button>
+        </div>
+    </form>
+</div>
+
+
+</div>
+
+
+
+
+

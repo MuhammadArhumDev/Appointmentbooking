@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\AppointmentBooking.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AppointmentBooking.794bmhw9v5.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\c-light.woff2",
+      "PackagePath": "staticwebassets\\css\\c-light.woff2"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\c-medium.woff2",
+      "PackagePath": "staticwebassets\\css\\c-medium.woff2"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\r-medium.woff2",
+      "PackagePath": "staticwebassets\\css\\r-medium.woff2"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\VS-PROJECTS\\project001\\AppointmentBooking\\AppointmentBooking\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AppointmentBooking.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AppointmentBooking.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AppointmentBooking.props",
+      "PackagePath": "build\\AppointmentBooking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AppointmentBooking.props",
+      "PackagePath": "buildMultiTargeting\\AppointmentBooking.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AppointmentBooking.props",
+      "PackagePath": "buildTransitive\\AppointmentBooking.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
