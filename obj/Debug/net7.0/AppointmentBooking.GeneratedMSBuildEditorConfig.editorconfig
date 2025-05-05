@@ -24,12 +24,60 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/BookService/SelectSlot.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1NlcnZpY2VcU2VsZWN0U2xvdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/BookService/ServiceDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1NlcnZpY2VcU2VydmljZURldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/AppointmentHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQXBwb2ludG1lbnRIaXN0b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/FeedbackAndRating.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRmVlZGJhY2tBbmRSYXRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/PersonalInformation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcUGVyc29uYWxJbmZvcm1hdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/UpcomingBookings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcVXBjb21pbmdCb29raW5ncy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Privacy.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/BusinessInformation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXEJ1c2luZXNzSW5mb3JtYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/ManageAvailability.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXE1hbmFnZUF2YWlsYWJpbGl0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/OfferedServices.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXE9mZmVyZWRTZXJ2aWNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/UpcomingAppointments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXFVwY29taW5nQXBwb2ludG1lbnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServicesFind/BookAppointments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNGaW5kXEJvb2tBcHBvaW50bWVudHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Shared/LoginDisplay.razor]
@@ -47,10 +95,6 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-b525vge4ar
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-5d9uvqplro
 
 [D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
@@ -88,64 +132,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/BookService/SelectSlot.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1NlcnZpY2VcU2VsZWN0U2xvdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/BookService/ServiceDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1NlcnZpY2VcU2VydmljZURldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/AppointmentHistory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQXBwb2ludG1lbnRIaXN0b3J5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/FeedbackAndRating.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRmVlZGJhY2tBbmRSYXRpbmcuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/PersonalInformation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcUGVyc29uYWxJbmZvcm1hdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Customer/UpcomingBookings.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcVXBjb21pbmdCb29raW5ncy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxBYm91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/BusinessInformation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXEJ1c2luZXNzSW5mb3JtYXRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/ManageAvailability.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXE1hbmFnZUF2YWlsYWJpbGl0eS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/OfferedServices.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXE9mZmVyZWRTZXJ2aWNlcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServiceProvider/UpcomingAppointments.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVByb3ZpZGVyXFVwY29taW5nQXBwb2ludG1lbnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/ServicesFind/BookAppointments.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNGaW5kXEJvb2tBcHBvaW50bWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VS-PROJECTS/project001/AppointmentBooking/AppointmentBooking/Pages/Shared/_Layout.cshtml]

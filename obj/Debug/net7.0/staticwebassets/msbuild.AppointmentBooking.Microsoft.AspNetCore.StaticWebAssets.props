@@ -1,22 +1,22 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AppointmentBooking.794bmhw9v5.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AppointmentBooking.u1swcfgd2n.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>AppointmentBooking</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AppointmentBooking</BasePath>
-      <RelativePath>AppointmentBooking.794bmhw9v5.bundle.scp.css</RelativePath>
+      <RelativePath>AppointmentBooking.u1swcfgd2n.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>794bmhw9v5</Fingerprint>
-      <Integrity>tRs6Mw81K6nwG1SIhCnzr+B20vefsExuj15SDE39Svc=</Integrity>
+      <Fingerprint>u1swcfgd2n</Fingerprint>
+      <Integrity>Ar7y6gKfgns3yPvBDd85RWDBhrc+Nbz49Bej0MeProM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AppointmentBooking.794bmhw9v5.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AppointmentBooking.u1swcfgd2n.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap\bootstrap.min.css'))">
       <SourceType>Package</SourceType>

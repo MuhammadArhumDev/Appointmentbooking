@@ -1,5 +1,4 @@
-﻿
-@page "/"
+﻿@page "/"
 @using Microsoft.AspNetCore.Components.Web
 
 <PageTitle>Welcome to AppointX</PageTitle>
@@ -16,6 +15,7 @@
 
 <section class="clients-coverage py-5">
     <div class="container text-center">
+        @* <h2 class="display-6 mb-4">Why Choose Us?</h2> *@
         <div class="row">
             <div class="col-12 col-md-4 mb-4">
                 <div class="p-4 bg-light rounded shadow-sm">
@@ -38,6 +38,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="features py-5">
     <div class="container text-center">
@@ -72,6 +73,7 @@
     </div>
 </section>
 
+
 <section class="features-description py-5">
     <div class="container text-center">
         <h2 class="display-6">Why Choose AppointX?</h2>
@@ -82,8 +84,9 @@
                 <div class="p-4 bg-light rounded shadow-sm h-100">
                     <h4 class="h5 text-primary mb-3">Seamless Scheduling</h4>
                     <p class="text-muted">Easily manage your appointments and availability with an intuitive calendar interface, making scheduling a breeze.</p>
-                    <ul class="list-unstyled d-flex align-items-center flex-column mt-3">
-                        <li class="d-flex align-items-start mb-2">
+                   <ul class="list-unstyled d-flex align-items-center flex-column mt-3">
+                        <div>
+                            <li class="d-flex align-items-start mb-2">
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>SSL encryption for secure connections</span>
                         </li>
@@ -95,6 +98,7 @@
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>Regular security audits</span>
                         </li>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -103,7 +107,8 @@
                     <h4 class="h5 text-primary mb-3">Automated Notifications</h4>
                     <p class="text-muted">Stay on top of your schedule with automated notifications sent directly to your email or mobile device.</p>
                     <ul class="list-unstyled d-flex align-items-center flex-column mt-3">
-                        <li class="d-flex align-items-start mb-2">
+                        <div>
+                            <li class="d-flex align-items-start mb-2">
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>SSL encryption for secure connections</span>
                         </li>
@@ -115,6 +120,7 @@
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>Regular security audits</span>
                         </li>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -123,7 +129,8 @@
                     <h4 class="h5 text-primary mb-3">Secure Data</h4>
                     <p class="text-muted">Your data's privacy and security are our top priority. We use advanced encryption to protect your information.</p>
                     <ul class="list-unstyled d-flex align-items-center flex-column mt-3">
-                        <li class="d-flex align-items-start mb-2">
+                        <div>
+                            <li class="d-flex align-items-start mb-2">
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>SSL encryption for secure connections</span>
                         </li>
@@ -135,6 +142,7 @@
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>Regular security audits</span>
                         </li>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -142,8 +150,9 @@
                 <div class="p-4 bg-light rounded shadow-sm h-100">
                     <h4 class="h5 text-primary mb-3">Easy Integration</h4>
                     <p class="text-muted">AppointX integrates smoothly with your existing systems, making it simple to start using right away.</p>
-                    <ul class="list-unstyled d-flex align-items-center flex-column mt-3">
-                        <li class="d-flex align-items-start mb-2">
+                   <ul class="list-unstyled d-flex align-items-center flex-column mt-3">
+                        <div>
+                            <li class="d-flex align-items-start mb-2">
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>SSL encryption for secure connections</span>
                         </li>
@@ -155,12 +164,14 @@
                             <i class="bi bi-check-circle-fill text-success me-2"></i>
                             <span>Regular security audits</span>
                         </li>
+                        </div>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <section class="services py-5 primary-bg">
     <div class="container text-center">
@@ -205,7 +216,7 @@
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="service-box p-4 bg-white rounded shadow-sm h-100">
-                    <h4 class="h5 text-primary mb-3">Risk Management &amp; Casual Consultation</h4>
+                    <h4 class="h5 text-primary mb-3">Risk Management & Casual Consultation</h4>
                     <p class="text-muted">Consult with professionals about risk management, casual consultations, and personalized services. Make informed decisions with the right expert advice at your fingertips.</p>
                 </div>
             </div>
@@ -213,10 +224,12 @@
     </div>
 </section>
 
+
 <section class="testimonials py-5 bg-light">
     <div class="container text-center">
         <h2 class="display-6 mb-4">What Our Clients Say</h2>
         <div class="row">
+        
             <div class="col-12 col-md-4 mb-4">
                 <div class="card p-4 shadow-sm border-0">
                     <div class="card-body">
@@ -229,6 +242,7 @@
                     </div>
                 </div>
             </div>
+        
             <div class="col-12 col-md-4 mb-4">
                 <div class="card p-4 shadow-sm border-0">
                     <div class="card-body">
@@ -241,6 +255,7 @@
                     </div>
                 </div>
             </div>
+       
             <div class="col-12 col-md-4 mb-4">
                 <div class="card p-4 shadow-sm border-0">
                     <div class="card-body">
@@ -253,6 +268,7 @@
                     </div>
                 </div>
             </div>
+        
             <div class="col-12 col-md-4 mb-4">
                 <div class="card p-4 shadow-sm border-0">
                     <div class="card-body">
@@ -265,6 +281,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-12 col-md-4 mb-4">
                 <div class="card p-4 shadow-sm border-0">
                     <div class="card-body">
@@ -281,10 +298,12 @@
     </div>
 </section>
 
+
 <section class="faq py-5 bg-light">
     <div class="container">
         <h2 class="display-6 text-center mb-4">Frequently Asked Questions</h2>
         <div class="accordion" id="faqAccordion">
+     
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faqOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -297,6 +316,7 @@
                     </div>
                 </div>
             </div>
+     
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faqTwo">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -309,6 +329,7 @@
                     </div>
                 </div>
             </div>
+    
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faqThree">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -321,6 +342,7 @@
                     </div>
                 </div>
             </div>
+  
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faqFour">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -333,6 +355,7 @@
                     </div>
                 </div>
             </div>
+      
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faqFive">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -345,6 +368,7 @@
                     </div>
                 </div>
             </div>
+  
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faqSix">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -357,6 +381,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="accordion-item">
                 <h2 class="accordion-header" id="faqSeven">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -373,15 +398,20 @@
     </div>
 </section>
 
+
+
 <footer class="bg-dark text-white py-5">
     <div class="container">
-        <div class="row">       
+        <div class="row">
+         
             <div class="col-12 col-md-4 mb-4">
                 <h5 class="fw-bold">AppointX</h5>
                 <p class="text-muted">
                     AppointX is a leading appointment management platform designed to make scheduling, booking, and tracking appointments easier for individuals and businesses.
                 </p>
             </div>
+
+      
             <div class="col-12 col-md-4 mb-4">
                 <h5 class="fw-bold">Customer Support</h5>
                 <ol class="list-unstyled">
@@ -390,16 +420,18 @@
                     <li><i class="bi bi-geo-alt-fill"></i> Canal , Lahore, Pakistan</li>
                 </ol>
             </div>
+
             <div class="col-12 col-md-4 mb-4">
                 <h5 class="fw-bold">Quick Links</h5>
                 <ol class="list-unstyled">
                     <li><a href="#about-us" class="text-white">About Us</a></li>
                     <li><a href="#services" class="text-white">Services</a></li>
                     <li><a href="#privacy-policy" class="text-white">Privacy Policy</a></li>
-                    <li><a href="#terms-conditions" class="text-white">Terms &amp; Conditions</a></li>
+                    <li><a href="#terms-conditions" class="text-white">Terms & Conditions</a></li>
                 </ol>
             </div>
         </div>
+
         <div class="row mt-4">
             <div class="col-12 text-center">
                 <p class="text-muted mb-0">AppointX is a registered trademark. All content © AppointX 2025. All rights reserved.</p>
@@ -408,5 +440,8 @@
     </div>
 </footer>
 
-```
+
+
+
+
 

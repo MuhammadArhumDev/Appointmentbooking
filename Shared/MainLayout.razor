@@ -3,15 +3,21 @@
 <PageTitle>AppointmentBooking</PageTitle>
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+    
 
     <main>
-        <div class="top-row px-4 auth">
-            <LoginDisplay />
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
+        <div class="top-row px-4 auth d-flex justify-between items-center" style="display: flex; justify-content: space-between; align-items: center;">
+    <a href="/" style="text-decoration: none; color: black;">
+    <h4>Appointment Booking</h4>
+</a>
+
+    <div style="display: flex; gap: 1rem; align-items: center;">
+        <LoginDisplay />
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+    </div>
+</div>
+
 
         <article class="content px-4">
             @Body

@@ -3,51 +3,6 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "AppointmentBooking.794bmhw9v5.styles.css",
-      "AssetFile": "AppointmentBooking.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3027"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tRs6Mw81K6nwG1SIhCnzr+B20vefsExuj15SDE39Svc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 20:47:57 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "794bmhw9v5"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tRs6Mw81K6nwG1SIhCnzr+B20vefsExuj15SDE39Svc="
-        },
-        {
-          "Name": "label",
-          "Value": "AppointmentBooking.styles.css"
-        }
-      ]
-    },
-    {
       "Route": "AppointmentBooking.styles.css",
       "AssetFile": "AppointmentBooking.styles.css",
       "Selectors": [],
@@ -62,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3027"
+          "Value": "1545"
         },
         {
           "Name": "Content-Type",
@@ -70,17 +25,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tRs6Mw81K6nwG1SIhCnzr+B20vefsExuj15SDE39Svc=\""
+          "Value": "\"Ar7y6gKfgns3yPvBDd85RWDBhrc+Nbz49Bej0MeProM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 20:47:57 GMT"
+          "Value": "Mon, 05 May 2025 14:48:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tRs6Mw81K6nwG1SIhCnzr+B20vefsExuj15SDE39Svc="
+          "Value": "sha256-Ar7y6gKfgns3yPvBDd85RWDBhrc+Nbz49Bej0MeProM="
+        }
+      ]
+    },
+    {
+      "Route": "AppointmentBooking.u1swcfgd2n.styles.css",
+      "AssetFile": "AppointmentBooking.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ar7y6gKfgns3yPvBDd85RWDBhrc+Nbz49Bej0MeProM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 14:48:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u1swcfgd2n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ar7y6gKfgns3yPvBDd85RWDBhrc+Nbz49Bej0MeProM="
+        },
+        {
+          "Name": "label",
+          "Value": "AppointmentBooking.styles.css"
         }
       ]
     },
